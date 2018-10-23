@@ -1,0 +1,10 @@
+#list-divider{
+    color:white;
+    background-color: black;
+}
+#camaro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}

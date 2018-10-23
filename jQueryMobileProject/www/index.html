@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' data:; style-src * 'self' 'unsafe-inline'; media-src *" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/mainAppStyles.css">
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>jQuery Mobile Project</title>
+</head>
+    
+<body>
+<div data-role="page" id="first">
+    <div data-role="header" data-position="fixed">
+        <h1>1970 Chevrolet Camaro Z28</h1>
+    </div> <!-- Header -->
+    <div role="main" class="ui-content">
+        <p>Best described as an Americanized version on the Ferrari, the 1970 Chevrolet Camaro Z28 is generally regarded as the most desirable of the early second-generation models and claimed by many to be the best Z28 ever built and produced by Chevrolet. It was a muscle car that had come into its own. Camaro kept its 108-inch wheelbase this year, but otherwise underwent wholesale change with a new coupe body that was an instant classic. The Z28 returned as a $573 package, the heart of which was a new engine. Trans Am racing now allowed destroking to achieve 305 cid, so the Z28 appropriated the Corvette's 350-cid LT1 V-8 as its sole power-plant. A timeless small block, the LT1 had solid lifters, a hot cam, big valves, aluminum pistons, 11.0:1 compression, and a 780-cfm Holley four-barrel. It was rated at 370 bhp in the 'Vette and 360 in the Z28. A $206 Hurst-shifted Muncie four-speed and $44 Positraction 3.73:1 gears (with 4.10:1 available) were mandatory extras, and there was now enough low-end torque for Chevy to offer the Z28's first automatic-transmission option. Suspension advances made all '70 Camaros good handlers and the Z28, with firmer underpinnings and sticky Polyglas F60xl5s, was a world-class road car. Hood and decklid striping, black grille, and seven-inch-wide mag-type steel wheels with polished lugs were part of the package. A rear spoiler was standard, but the air-induction hood was dropped. As before, the Z28 could be combined with the Rally Sport package, which this year went for $169 and included a unique nose treatment with a soft Endura grille surround and chrome bumperettes. Instrument positioning was improved, though a tach was part of the optional $84 gauge group. The Z28 had matured. If it had lost some of its predecessors' juvenile zeal, it surpassed them in acceleration, balance, and refinement. Car and Driver called the '70 "an automobile of uncommon merit... a car of brilliant performance...." There’s no doubt that the Z28 which had the perfect mix of pure muscle car, race car, and well balanced performance touring car for a reasonable price was the 1970 Z28.</p>
+    </div> <!-- Main -->
+    <div data-role="footer">
+        <div data-role="navbar">
+        <ul>
+            <li><a href="#" class="ui-btn-active ui-state-persist" data-icon="comment">Description</a></li>
+            <li><a href="#second" data-icon="gear">Specs</a></li>
+            <li><a href="#third" data-icon="video">Image</a></li>
+        </ul>
+    </div> <!-- Navbar -->
+        <h3>Chevrolet Corporation</h3>
+    </div> <!-- Footer -->
+</div> <!-- First -->
+    
+<div data-role="page" id="second">
+    <div data-role="header" data-postion="fixed">
+        <h1>1970 Chevrolet Camaro Z28</h1> 
+    </div> <!-- Header -->
+    <div role="main" class="ui-content">
+        <ul data-role="listview">
+            <li data-role="list-divider" id="list-divider">Drivetrain</li>
+            <li><a href="#">350 CID</a></li>
+            <li><a href="#">780-CFM Holley Four-Barrel</a></li>
+            <li><a href="#">380 lb-ft Torque</a></li>
+            <li><a href="#">4 Speed Manual Transmission</a></li>
+            <li data-role="list-divider" id="list-divider">Performance</li>
+            <li><a href="#">0-60 MPH - 6.1 Seconds</a></li>
+            <li><a href="#">Quarter-Mile - 14.4 sec @ 99.1 mph</a></li>
+        </ul>
+    </div> <!-- Main -->
+    <div data-role="footer">
+        <div data-role="navbar">
+        <ul>
+            <li><a href="#first" data-icon="comment">Description</a></li>
+            <li><a href="#" class="ui-btn-active ui-state-persist" data-icon="gear">Specs</a></li>
+            <li><a href="#third" data-icon="video">Image</a></li>
+        </ul>
+    </div> <!-- Navbar -->
+        <h3>Chevrolet Corporation</h3>
+    </div> <!-- Footer -->
+</div> <!-- Second -->
+    
+<div data-role="page" id="third">
+    <div data-role="header" data-position="fixed">
+        <h1>1970 Chevrolet Camaro Z28</h1>
+    </div> <!-- Header -->
+    <div role="main" class="ui-content">
+        <img src="img/camaro.jpg" id="camaro"/>
+    </div> <!-- Main -->
+    <div data-role="footer">
+        <div data-role="navbar">
+        <ul>
+            <li><a href="#first" data-icon="comment">Description</a></li>
+            <li><a href="#second" data-icon="gear">Specs</a></li>
+            <li><a href="#" class="ui-btn-active ui-state-persist" data-icon="video">Image</a></li>
+        </ul>
+    </div> <!-- Navbar -->
+        <h3>Chevrolet Corporation</h3>
+    </div> <!-- Footer -->
+</div> <!-- Third -->
+    
+</body>
+
+</html>
